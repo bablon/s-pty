@@ -20,4 +20,6 @@
        (expect-strings
          ("> "
 	  (display "(exit)\n" port)))
-       (close-port port)))
+       (expect-strings
+         ("\\)"
+	  (close-port port) (newline)))))

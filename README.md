@@ -12,4 +12,4 @@ Here is the result of the example texp.scm which starts Chez scheme, views machi
     
     > (machine-type)
     a6le
-    > 
+    > (exit)
